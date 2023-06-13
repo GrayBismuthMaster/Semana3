@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Semana4.App">
+    <Application.Resources>
+        <ResourceDictionary>
+            <Style x:Key="stackLayoutStyle" TargetType="StackLayout">
+                <Setter Property="Orientation" Value="Vertical"/>
+                <Setter Property="WidthRequest" Value="150"/>
+                <Setter Property="BackgroundColor" Value="#BBd8EB"/>
+                <Setter Property="Padding" Value="40,60,10,10"/>
+            </Style>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

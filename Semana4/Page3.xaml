@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Semana4.Page3">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style  TargetType="Label">
+                <Setter Property="TextColor" Value="Fuchsia" />
+                <Setter Property="FontSize" Value="20"/>
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <StackLayout>
+            <Label 
+                Text="Estilos semana 3"
+            />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
